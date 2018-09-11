@@ -37,7 +37,13 @@ function multiply (number1,number2){
     for (let i=0;i<number2;i++){
         somme+=number1;
     }
+    if (number1==0 || number2==0){
+        return 0;
+    }
+    else{
+
     return parseInt(result+=somme);
+    }
 }
 
 
