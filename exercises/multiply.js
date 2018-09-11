@@ -9,6 +9,37 @@
  */
 
 // Your code :
+function multiply (number1,number2){
+    let sign1='';
+    let sign2='';
+    let result='';
+    let somme=0;
+    if(number1>=0){
+        sign1="+";
+    }
+    else{
+        sign1="-";
+        number1=-number1;
+    }
+    if(number2>=0){
+        sign2="+";
+    }
+    else{
+        sign2="-";
+        number2=-number2;
+    }
+
+    if(sign1 =="+" && sign2 =="-" || sign2 =="+" && sign1 =="-"  ){
+        result="-";
+    }
+    
+
+    for (let i=0;i<number2;i++){
+        somme+=number1;
+    }
+    return parseInt(result+=somme);
+}
+
 
 //* Begin of tests
 const assert = require('assert')

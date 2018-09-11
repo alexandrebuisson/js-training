@@ -10,6 +10,15 @@
  */
 
 // Your code :
+function min(first, second) {
+
+   if (first < second) {
+
+	return first
+   } else {
+	return second
+   }
+};
 
 //* Begin of tests
 const assert = require('assert')

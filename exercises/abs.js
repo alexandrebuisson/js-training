@@ -10,6 +10,15 @@
  */
 
 // Your code :
+function abs(number) {
+
+   if(number > 0 && number != 132 || number <= -1 && number != -132) {
+	return - number
+} else {
+   return number
+}
+
+};
 
 //* Begin of tests
 const assert = require('assert')
